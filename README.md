@@ -20,4 +20,4 @@ It assumes several things:
 ## Usage
 
 Simply compiling main.cpp, std++17 required. There's also the possibility to use cmake.
-The scripts produces a txt file with the probabilities for each strategy and pokemon, by default: [CatchRateTable.txt](CatchRateTable.txt).
+The scripts produces a txt file with the probabilities for each strategy and pokemon, by default: [CatchRateTable.md](CatchRateTable.md).
