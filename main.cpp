@@ -10,7 +10,7 @@
 #define FACTOR_DOWN (100. / 1275.)
 #define FACTOR_UP (1275. / 100.)
 #define N_ENCOUNTERS 100000
-#define OUTFILE "CatchRateTable.txt"
+#define OUTFILE "CatchRateTable.md"
 
 //List of FireRed/LeafGreen safari pokemon
 #define MAGIKARP Pokemon(25, 255)
@@ -316,6 +316,21 @@ void PrepareOutput()
     outf << " | ";
     outf << std::left << std::setw(12) << std::setfill(' ') << "Cheaty rock";
     outf << " |";
+    outf << std::endl;
+
+    outf << "|";
+    outf << std::left << std::setw(14) << std::setfill('-') << "";
+    outf << "|";
+    outf << std::left << std::setw(14) << std::setfill('-') << "";
+    outf << "|";
+    outf << std::left << std::setw(14) << std::setfill('-') << "";
+    outf << "|";
+    outf << std::left << std::setw(14) << std::setfill('-') << "";
+    outf << "|";
+    outf << std::left << std::setw(14) << std::setfill('-') << "";
+    outf << "|";
+    outf << std::left << std::setw(14) << std::setfill('-') << "";
+    outf << "|";
     outf << std::endl;
     outf.close();
 }
